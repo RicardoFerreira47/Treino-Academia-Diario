@@ -21,8 +21,8 @@
 body,html{
     width: 98vw;
  
-    background-color: black;
-    color: white;
+    background-color: var(--caqui);
+    color: var(--letra);
     text-align: center;
     background-repeat:inherit;
 
