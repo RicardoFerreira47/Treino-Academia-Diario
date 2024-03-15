@@ -20,11 +20,10 @@
 
 body,html{
     width: 100vw;
- 
     background-color: var(--caqui);
     color: var(--letra);
     text-align: center;
-    background-repeat:inherit;
+   
 
 }
 
