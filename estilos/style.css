@@ -6,11 +6,11 @@
     --caqui:#606c38;
     --verde:#4f772d;
     --letra:#fefae0;
+    --h3:#06b0ff;
+    --h4:#dbe67a;
 
 
 }
-
-@charset "utf-8";
 
 *{
    
@@ -19,7 +19,7 @@
 }
 
 body,html{
-    width: 98vw;
+    width: 100vw;
  
     background-color: var(--caqui);
     color: var(--letra);
@@ -33,6 +33,11 @@ section{
     margin: auto;
 }
 
+section>div>img{
+    border-radius: 10px;
+            box-shadow: 0px 0px 0px 2px #fefae0;
+}
+
 section>div>h1{
     font-family: arial;
     font-weight: bolder;
@@ -42,16 +47,27 @@ section>div>h1{
     text-align: center;
     background-color: rgba(128, 128, 128, 0.625);
     text-shadow: 2px 1px 1px rgba(0, 0, 0, 0.486);
-    color: white;
+    color: var(--letra);
     border-radius: 12px;
-    box-shadow: 0px 0px 20px 4px rgb(255, 255, 255);
+    box-shadow: 0px 0px 20px 4px var(--letra);
 
 }
 
 section>div>h3{
     font-size: 1.3em;
     text-align: left;
+    margin: 10px;
+    color: var(--h3);
+       
+
+}
+
+section>div>h4{
+    font-size: 1.3em;
+    text-align: left;
     margin-left: 10px;
+    margin-top:0px ;
+    color: var(--h4);
 
 }
 
@@ -60,7 +76,8 @@ section>div>p{
     text-indent: 15px;
     font-size: 1em;
     line-height: 20px;
-    padding: 15px;
+    margin-bottom:50px ;
+   
 
 }
 
